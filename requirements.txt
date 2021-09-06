@@ -3,3 +3,6 @@ pillow
 tensorflow
 numpy
 twilio
+python-dotenv
+flask 
+numpy
