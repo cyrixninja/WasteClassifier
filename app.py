@@ -43,7 +43,7 @@ def classifier(img, file):
     return prediction
 
 
-st.title("Waste Classifier")
+st.title("Useful Garbage")
 uploaded_file = st.file_uploader(" ", type="jpg")
 if uploaded_file is not None:
     image = Image.open(uploaded_file).convert('RGB')
